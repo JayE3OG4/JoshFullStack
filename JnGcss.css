@@ -1,0 +1,176 @@
+body { background-color:#000000;
+		   color:#0000FF;
+		   font-family: Arial, Verdana, "sans serif";
+		   background-image: url(shopcart.gif}
+		   
+main {padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 4em;
+		display: block; 
+		margin-left: 200px; 
+		padding-top: 0; 
+		background-color: #CCCCCC;}
+		
+main,h2, h3, h4, p,div,ul,dl	{padding-left: 4em; 
+									padding-right: 3em;}
+									
+header		   {background-color:#CCCC9C;
+			height: 150px; 
+			background-image: url("javajamlogo.jpg"); 
+			background-position: left; 
+		   background-repeat: no-repeat;}
+		   
+h1	{ padding-top:55px; 
+	padding-left: 200px;
+	font-size: 4em; 
+		font-family: Arial,Verdana,"sans serif"; }
+		
+h4{ background-color: #CCCCCC; 
+	font-size: 1.6em; 
+	padding-bottom : 0;
+	padding-left: 20px;
+	text-transform: uppercase;
+	border-bottom: 2px;
+	clear: left;
+	}	
+
+.details  {padding-left: 20%;
+			padding-right: 20%;
+			overflow:auto}	
+			
+nav	{ font-weight: bold; 
+		text-align: center;
+		padding-top: 10px;
+		font-size: 1.5em;
+		float: left;
+		width: 200px; }		
+
+#floatleft{ float: left;
+			padding-bottom:300px;
+			padding-right:25px;}	
+
+nav a {text-decoration: none;}
+nav a:link {color: #CCCCCC;}
+nav a:visited {color: #CCCCCC;}
+nav a:hover {color: #CCCCCC;}
+nav u1 { list-style-type:none; padding-left: 0;}	
+
+.clearleft{	margin:1em;
+			clear:left;}
+
+img { 	padding-right:10px;
+		padding-left:10px;	}
+	
+footer	{ background-color: #CCCC9C;
+		font-size: .60em;
+			font-weight: italic;
+			text-align: center;
+			padding-bottom: 10px;
+			border-top: 2px;
+			border-top-color:#000000;
+			margin-left:200px;}	
+			
+#wrapper { width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color:#light blue; 
+		min-width: 900px;
+		max-width: 1280px;
+		box-shadow: 4px 4px 2px #light blue;}
+
+* { box-sizing: border-box;}
+ 
+#gold6pinnacle  {background-image :url("gold6pinnacle.jpg"); 
+	background-size: 100%;
+	height: 3500px;
+	background-repeat: no-repeat;}
+#camojacket	{background-image :url("camojacket.jpg"); 
+	background-size: 100%;
+	height: 350px;
+	background-repeat: no-repeat;}
+#camosweatshirt	{background-image :url("camosweatshirt.jpg"); 
+	background-size: 100%;
+	height: 350px;
+	background-repeat: no-repeat;}
+	
+header, nav,main, footer{ display:block}
+
+#mobile { display: none;}
+#desktop{display: inline;}
+
+table {width:130%;
+		border-spacing:0;
+		margin:auto;
+		background-color:#FFFFFF;}
+td,th {padding: 30px;}
+	
+tr:nth-of-type(even) {background-color:#light blue;}
+
+form {padding :4em}
+
+label {	display:block;
+		text-align:right;
+		width:10em;
+		padding-right:2.5em;
+		float:left;}
+	
+input,textarea {	display:block;
+					margin-bottom:1em;	}
+
+#mySubmit{	margin-left:11.5em;	}
+
+audio{	display:block;
+		margin-top:1em;	}
+		
+/*for other devices*/
+@media only screen and (max-width:1024px){
+	body{ 
+			margin:0;
+			background-image:none;
+	}
+	#wrapper {
+			width:auto;
+			min-width:0;
+			margin:0;
+			padding:0;
+			box-shadow:none;
+	}
+	header {
+			border-bottom-color:#FEF6C2;
+			border-bottom-style:solid;
+			border-bottom-width:5px;
+	}
+	h1 {
+		margin-top:0;
+		margin-bottom:1em;
+		padding-top:1em;
+		padding-bottom:1em;
+		font-size:2.5em;
+		
+	}
+	nav {
+		float:none;
+		width:auto;
+		padding-top:0;
+		margin:10px;
+		font-size:1.3em;
+		
+	}
+	
+	nav li { display:inline-block;
+		}
+		nav a{
+			padding:1em;
+			width:8em;
+			font-weight:bold;
+			border-style:none;
+		}
+		nav ul{
+			padding:0;
+			margin:0;
+		}
+
+main{
+			padding:0;
+			margin:0;
+			font-size:90%;		
